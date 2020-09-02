@@ -1,15 +1,20 @@
 <template>
   <div class="strings">
-    <p>I will be the 'A' string</p>
-    <p>I will be the 'E' string</p>
-    <p>I will be the 'C' string</p>
-    <p>I will be the 'G' string</p>
+    <String openNote='A'/>
+    <String openNote='E'/>
+    <String openNote='C'/>
+    <String openNote='G'/>
   </div>
 </template>
 
 <script>
+  import String from './String'
+
   export default {
-    name: "Neck"
+    name: "Neck",
+    components: {
+      String
+    }
   }
 </script>
 
