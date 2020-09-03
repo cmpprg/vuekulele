@@ -22,7 +22,7 @@
         allNotes: ['C4', 'C#4', 'D4', 'D#4', 'E4', 'F4',
                    'F#4', 'G4', 'G#4','A4', 'A#4', 'B4',
                    'C5', 'C#5', 'D5', 'D#5', 'E5', 'F5',
-                   'F#5', 'G5', 'G#5', 'A5', 'A#5', 'B5']
+                   'F#5', 'G5', 'G#5']
       }
     },
     methods: {
@@ -39,8 +39,7 @@
 
 <style scoped>
   td {
-    border-left: 2px solid black;
-    border-collapse: collapse;
-    font-weight:500;
+    border-left: 2px solid 	#D3D3D3; /* white */
+    font-weight:700;
   }
 </style>
