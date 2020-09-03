@@ -15,7 +15,7 @@
       playNote: (key) => {
         let synth = new Synth();
         synth.toMaster();
-        synth.triggerAttackRelease(key, '8n')
+        synth.triggerAttackRelease(key, '6n')
       }
     }
   }

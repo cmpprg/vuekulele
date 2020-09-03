@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <button v-on:click='isLanding = true'>Home</button>
+    <button v-on:click='toggleIsLanding()'>Home</button>
     <button v-on:click='isLanding = false'>Ukulele</button>
     <UkulelePage v-if='!isLanding'/>
     <LandingPage v-if='isLanding'/>
@@ -20,6 +20,11 @@ export default {
   data() {
     return {
       isLanding: false
+    }
+  },
+  methods: {
+    toggleIsLanding: function() {
+      this.isLanding = !this.isLanding
     }
   }
 }
