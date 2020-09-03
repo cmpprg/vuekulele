@@ -18,5 +18,7 @@
     border: 2px solid black;
     display: inline-block;
     float: left;
+    width: 50px;
+    text-align: center;
   }
 </style>

@@ -4,7 +4,7 @@
       <p>This is the Ukulele Page</p>
     </div>
 
-    <div class="neck">
+    <div class="instrument">
       <Neck />
     </div>
   </div>
@@ -22,8 +22,12 @@
 </script>
 
 <style scoped>
+  * {
+  }
   .title {
+    padding-top: 30px;
     padding-bottom: 15%;
     text-align: center;
+    font-size: 20px;
   }
 </style>

@@ -1,9 +1,9 @@
 <template>
-  <div class="strings">
-    <String openNote='A'/><br>
-    <String openNote='E'/><br>
-    <String openNote='C'/><br>
-    <String openNote='G'/><br>
+  <div class="neck">
+    <String openNote='A'/>
+    <String openNote='E'/>
+    <String openNote='C'/>
+    <String openNote='G'/>
   </div>
 </template>
 
@@ -17,12 +17,15 @@
     },
     data() {
       return {
-        allNotes: ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#']
+        allNotes: ['A', 'A#', 'B', 'C', 'C#', 'D',
+                   'D#', 'E', 'F', 'F#', 'G', 'G#']
       }
     }
   }
 </script>
 
 <style scoped>
-
+  .neck {
+    border: 4px solid blue;
+  }
 </style>
