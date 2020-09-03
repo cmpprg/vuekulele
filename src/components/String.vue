@@ -19,8 +19,10 @@
     },
     data() {
       return {
-        allNotes: ['A', 'A#', 'B', 'C', 'C#', 'D',
-                   'D#', 'E', 'F', 'F#', 'G', 'G#']
+        allNotes: ['A4', 'A#4', 'B4', 'C4', 'C#4', 'D4',
+                   'D#4', 'E4', 'F4', 'F#4', 'G4', 'G#4',
+                   'A5', 'A#5', 'B5', 'C5', 'C#5', 'D5',
+                   'D#5', 'E5', 'F5', 'F#5', 'G5', 'G#5']
       }
     },
     methods: {
@@ -29,7 +31,7 @@
         while (copyNotes[0] !== startNote) {
           copyNotes.unshift(copyNotes.pop())
         }
-        return copyNotes
+        return copyNotes.slice(0, 12)
       }
     }
   }

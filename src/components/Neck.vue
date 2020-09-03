@@ -1,9 +1,9 @@
 <template>
   <div class="neck">
-    <String openNote='A'/>
-    <String openNote='E'/>
-    <String openNote='C'/>
-    <String openNote='G'/>
+    <String openNote='A4'/>
+    <String openNote='E4'/>
+    <String openNote='C4'/>
+    <String openNote='G4'/>
   </div>
 </template>
 
