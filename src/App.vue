@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <button v-on:click='toggleIsLanding()'>Home</button>
-    <button v-on:click='isLanding = false'>Ukulele</button>
+    <Navbar :toggleIsLanding='toggleIsLanding'/>
     <UkulelePage v-if='!isLanding'/>
     <LandingPage v-if='isLanding'/>
   </div>
 </template>
 
 <script>
+import Navbar from './components/Navbar'
 import UkulelePage from './components/pages/UkulelePage.vue'
 import LandingPage from './components/pages/LandingPage.vue'
 
 export default {
   name: 'App',
   components: {
+    Navbar,
     UkulelePage,
     LandingPage
   },
@@ -23,8 +24,9 @@ export default {
     }
   },
   methods: {
-    toggleIsLanding: function() {
-      this.isLanding = !this.isLanding
+    toggleIsLanding: function(boolean) {
+      this.isLanding = boolean
+      alert(boolean)
     }
   }
 }
@@ -40,11 +42,5 @@ export default {
   padding: 0;
   width: 100%;
   height: 100%;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 </style>
