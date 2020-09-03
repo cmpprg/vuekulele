@@ -1,16 +1,26 @@
 <template>
   <div id="app">
-    <UkulelePage />
+    <button v-on:click='isLanding = true'>Home</button>
+    <button v-on:click='isLanding = false'>Ukulele</button>
+    <UkulelePage v-if='!isLanding'/>
+    <LandingPage v-if='isLanding'/>
   </div>
 </template>
 
 <script>
 import UkulelePage from './components/pages/UkulelePage.vue'
+import LandingPage from './components/pages/LandingPage.vue'
 
 export default {
   name: 'App',
   components: {
-    UkulelePage
+    UkulelePage,
+    LandingPage
+  },
+  data() {
+    return {
+      isLanding: false
+    }
   }
 }
 </script>
