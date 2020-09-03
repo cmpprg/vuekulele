@@ -1,6 +1,6 @@
 <template>
   <div @click='playNote(keyOf)' class="note">
-    <p>{{keyOf}}</p>
+    <p>-------{{keyOf}}--------</p>
   </div>
 </template>
 
@@ -23,10 +23,6 @@
 
 <style scoped>
   .note {
-    border: 2px solid black;
-    display: inline-block;
-    float: left;
-    width: 50px;
     text-align: center;
   }
 </style>

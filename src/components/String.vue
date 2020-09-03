@@ -1,9 +1,9 @@
 <template>
-  <div class="string">
-    <div v-for='note in orderNotesForString(openNote, allNotes)' :key='note'>
+  <tr class="string">
+    <td v-for='note in orderNotesForString(openNote, allNotes)' :key='note'>
       <Note :keyOf='note'/>
-    </div>
-  </div>
+    </td>
+  </tr>
 </template>
 
 <script>
@@ -38,11 +38,9 @@
 </script>
 
 <style scoped>
-  .string {
-    display: block;
-    padding-bottom: 40px;
-    height: 20px;
-    width: 100%;
-
+  td {
+    border-left: 2px solid black;
+    border-collapse: collapse;
+    font-weight:500;
   }
 </style>
