@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Ukulele/>
+    <UkulelePage />
   </div>
 </template>
 
 <script>
-import Ukulele from './components/pages/Ukulele.vue'
+import UkulelePage from './components/pages/UkulelePage.vue'
 
 export default {
   name: 'App',
   components: {
-    Ukulele
+    UkulelePage
   }
 }
 </script>
@@ -20,8 +20,16 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #2c3e60;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
