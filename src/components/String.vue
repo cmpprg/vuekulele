@@ -1,14 +1,19 @@
 <template>
   <div class="string">
-    <p>I will be the '{{openNote}}' String</p>
+    <Note keyOf="A"/>
   </div>
 </template>
 
 <script>
+  import Note from './Note.vue'
+
   export default {
     name: "String",
     props: {
       openNote: String
+    },
+    components: {
+      Note
     }
   }
 </script>
