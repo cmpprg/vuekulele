@@ -39,8 +39,8 @@
 
 <style scoped>
   td {
-    border-left: 2px solid black;
+    border-left: 2px solid 	#D3D3D3;
     border-collapse: collapse;
-    font-weight:500;
+    font-weight:700;
   }
 </style>

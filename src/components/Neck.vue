@@ -23,9 +23,6 @@
     border: 4px solid #1e140a;
     border-radius: 10px;
     width: 100%;
-  }
-
-  .string-on-neck {
-    border: 1px solid red
+    background-color: #1e140a;
   }
 </style>

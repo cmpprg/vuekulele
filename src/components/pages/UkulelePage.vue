@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="title">
-      <p>This is the Ukulele Page</p>
+      <p>Ukulele Page</p>
     </div>
 
     <div class="instrument">

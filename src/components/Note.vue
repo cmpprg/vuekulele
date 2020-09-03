@@ -24,5 +24,12 @@
 <style scoped>
   .note {
     text-align: center;
+    background-color: #281b0d;
+    color: 	#D3D3D3;
+    padding: 10px 0px;
+    /* border: 1px solid purple; */
+  }
+  .note:hover {
+    cursor: grab;
   }
 </style>
