@@ -20,8 +20,10 @@
     margin-bottom: 10%;
     width: 20%;
     text-align: center;
-    font-size: 40px;
     text-decoration: underline;
-
+    font-size: 40px;
+    font-weight: 700;
+    color: gray;
+    -webkit-text-stroke: 1px white;
   }
 </style>

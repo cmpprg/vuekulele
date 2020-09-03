@@ -34,13 +34,13 @@
   }
 
   .home:hover {
-    border-left: 0.5px solid green;
-    border-bottom: 0.5px solid green;
+    border-left: 0.5px solid #ffffff;
+    border-bottom: 0.5px solid #ffffff;
   }
 
   .instrument:hover {
-    border-right: 0.5px solid green;
-    border-bottom: 0.5px solid green;
+    border-right: 0.5px solid #ffffff;
+    border-bottom: 0.5px solid #ffffff;
   }
 
 </style>

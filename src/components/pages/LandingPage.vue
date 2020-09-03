@@ -1,10 +1,15 @@
 <template>
-  <p>I am the Landing Page!</p>
+  <Header title='Aloha!'/>
 </template>
 
 <script>
+  import Header from '../Header.vue'
+
   export default {
-    name: "LandingPage"
+    name: "LandingPage",
+    components: {
+      Header
+    }
   }
 </script>
 

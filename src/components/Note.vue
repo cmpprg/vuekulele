@@ -6,6 +6,7 @@
 
 <script>
   import { Synth } from 'tone'
+
   export default {
     name: "Note",
     props: {
