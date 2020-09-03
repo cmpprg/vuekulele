@@ -24,10 +24,9 @@
 <style scoped>
   .note {
     text-align: center;
-    background-color: #281b0d;
-    color: 	#D3D3D3;
+    background-color: #281b0d; /* light brown */
+    color: 	#D3D3D3; /* white */
     padding: 10px 0px;
-    /* border: 1px solid purple; */
   }
   .note:hover {
     cursor: grab;

@@ -26,7 +26,6 @@ export default {
   methods: {
     toggleIsLanding: function(boolean) {
       this.isLanding = boolean
-      alert(boolean)
     }
   }
 }
