@@ -1,9 +1,6 @@
 <template>
-  <div>
-    <div class="title">
-      <p>Ukulele Page</p>
-    </div>
-
+  <div class="app">
+    <Header title='Ukulele'/>
     <div class="instrument">
       <Neck />
     </div>
@@ -11,19 +8,20 @@
 </template>
 
 <script>
+  import Header from '../Header'
   import Neck from '../Neck.vue'
 
   export default {
     name: "UkulelePage",
     components: {
+      Header,
       Neck
     }
   }
 </script>
 
 <style scoped>
-  * {
-  }
+
   .title {
     padding-top: 30px;
     padding-bottom: 15%;

@@ -40,7 +40,6 @@
 <style scoped>
   td {
     border-left: 2px solid 	#D3D3D3; /* white */
-    border-collapse: collapse;
     font-weight:700;
   }
 </style>

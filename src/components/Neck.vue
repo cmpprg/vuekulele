@@ -37,8 +37,9 @@
   .neck {
     border: 4px solid #1e140a;
     border-radius: 10px;
-    width: 100%;
+    width: 98%;
     background-color: #1e140a;
+    margin: auto;
   }
 
   th {
