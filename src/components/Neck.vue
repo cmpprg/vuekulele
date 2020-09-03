@@ -1,10 +1,10 @@
 <template>
-  <div class="neck">
-    <String openNote='A'/>
-    <String openNote='E'/>
-    <String openNote='C'/>
-    <String openNote='G'/>
-  </div>
+  <table class="neck">
+    <String openNote='A4'/>
+    <String openNote='E4'/>
+    <String openNote='C4'/>
+    <String openNote='G4'/>
+  </table>
 </template>
 
 <script>
@@ -14,18 +14,18 @@
     name: "Neck",
     components: {
       String
-    },
-    data() {
-      return {
-        allNotes: ['A', 'A#', 'B', 'C', 'C#', 'D',
-                   'D#', 'E', 'F', 'F#', 'G', 'G#']
-      }
     }
   }
 </script>
 
 <style scoped>
   .neck {
-    border: 4px solid blue;
+    border: 4px solid #1e140a;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .string-on-neck {
+    border: 1px solid red
   }
 </style>
