@@ -1,9 +1,9 @@
 <template>
   <div class="strings">
-    <String openNote='A'/>
-    <String openNote='E'/>
-    <String openNote='C'/>
-    <String openNote='G'/>
+    <String openNote='A'/><br>
+    <String openNote='E'/><br>
+    <String openNote='C'/><br>
+    <String openNote='G'/><br>
   </div>
 </template>
 
@@ -14,6 +14,11 @@
     name: "Neck",
     components: {
       String
+    },
+    data() {
+      return {
+        allNotes: ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#']
+      }
     }
   }
 </script>

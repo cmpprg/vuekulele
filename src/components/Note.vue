@@ -15,6 +15,8 @@
 
 <style scoped>
   .note {
-    boder: 2px solid black;
+    border: 2px solid black;
+    display: inline-block;
+    float: left;
   }
 </style>

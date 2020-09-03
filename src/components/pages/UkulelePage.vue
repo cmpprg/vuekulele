@@ -24,5 +24,6 @@
 <style scoped>
   .title {
     padding-bottom: 15%;
+    text-align: center;
   }
 </style>

@@ -1,6 +1,8 @@
 <template>
   <div class="string">
-    <Note keyOf="A"/>
+    <div v-for='fret in frets' :key='fret'>
+      <Note :keyOf='fret'/>
+    </div>
   </div>
 </template>
 
@@ -14,10 +16,18 @@
     },
     components: {
       Note
+    },
+    data() {
+      return {
+        frets: ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#']
+      }
     }
   }
 </script>
 
 <style scoped>
-
+  .string {
+    display: block;
+    padding-bottom: 40px;
+  }
 </style>
