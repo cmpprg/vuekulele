@@ -29,7 +29,7 @@
     max-width: 45%;
     min-width: 45%;
     border: 2px solid white;
-    border-bottom-color: ;
+    border-bottom-color: #281b0d;
     border-radius: 10px;
     background-color: grey;
     color: #d4d4d4;

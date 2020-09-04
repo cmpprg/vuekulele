@@ -4,12 +4,14 @@
     <Card
       alignment='left'
       title="About This Project"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      text="Welcome to Vuekulele! This app is an online manual music maker modeled after the one and only Ukulele.
+            This project was initiated by the Vue.js Hackathon, hosted by Mintbean.
+            We were given approximately 48 hours to contruct this application using only front-end technologies including Vue.js "
     />
     <Card
       alignment='right'
       title="How To Use This App"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      text="To use this app"
     />
     <Card
       alignment='left'
