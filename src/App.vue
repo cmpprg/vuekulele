@@ -3,6 +3,7 @@
     <Navbar :toggleIsLanding='toggleIsLanding'/>
     <UkulelePage v-if='!isLanding'/>
     <LandingPage v-if='isLanding'/>
+    <Footer />
   </div>
 </template>
 
@@ -10,17 +11,19 @@
 import Navbar from './components/Navbar'
 import UkulelePage from './components/pages/UkulelePage.vue'
 import LandingPage from './components/pages/LandingPage.vue'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
     Navbar,
     UkulelePage,
-    LandingPage
+    LandingPage,
+    Footer
   },
   data() {
     return {
-      isLanding: false
+      isLanding: true
     }
   },
   methods: {
@@ -40,6 +43,6 @@ export default {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
 }
 </style>
