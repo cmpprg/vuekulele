@@ -29,8 +29,8 @@
     max-width: 45%;
     min-width: 45%;
     border: 2px solid white;
-    border-bottom-color: #281b0d;
-    border-radius: 10px;
+    border-top-color: #281b0d;
+    border-radius: 5px 5px 20px 20px;
     background-color: grey;
     color: #d4d4d4;
     font-size: 20px;
@@ -53,5 +53,8 @@
     margin-right: 5%;
     float: right;
     text-align: right;
+  }
+  .text {
+    text-align: center;
   }
 </style>
