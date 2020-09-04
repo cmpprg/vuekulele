@@ -17,7 +17,6 @@
 
   .container {
     margin:auto;
-    margin-bottom: 10%;
     width: 20%;
     text-align: center;
     text-decoration: underline;

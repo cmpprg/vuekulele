@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class='nav-button home' @click='toggleIsLanding(true)'>Home</div> |
-    <div class='nav-button instrument' @click='toggleIsLanding(false)'>Ukulele</div>
+    <div class='nav-button instrument' @click='toggleIsLanding(false)'>Instrument</div>
   </div>
 </template>
 

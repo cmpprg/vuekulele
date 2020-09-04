@@ -40,6 +40,7 @@
     width: 98%;
     background-color: #1e140a;
     margin: auto;
+    margin-top: 10%;
   }
 
   th {
