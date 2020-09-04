@@ -5,9 +5,7 @@
     </div>
     <div class="links">
       <p>campryan@comcast.net</p>
-
       <a href="https://github.com/cmpprg"><img src="../assets/GitHub-Mark-32px.png" alt="Ryan Camp's Github Profile"></a>
-
       <a href="https://www.linkedin.com/in/campprg/"><img src="../assets/LI-In-Bug.png" alt="Ryan Camp's LinkedIn Profile"></a>
     </div>
   </div>
@@ -21,13 +19,14 @@
 
 <style scoped>
   .footer {
-    height: 4.25rem;
-    position: absolute;
+    height: 10%;
+    position: fixed;
     bottom: 0;
     width: 100%;
     border-radius: 20% 20% 0 0;
     background-color: gray;
     color: white;
+    /* padding-top: 5px; */
   }
 
   .labels {
@@ -46,11 +45,11 @@
     font-size: 20px;
     color: white;
     text-decoration: none;
-    padding: 0px 10px;
+    padding: 0px 15px;
   }
 
   img {
-    width: 20px;
+    width: 25px;
     height: auto;
   }
 
