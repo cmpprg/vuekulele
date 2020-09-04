@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="labels">
-      <p>CampPRG | Vuekulele</p>
+      <p>Vuekulele | CampPRG</p>
     </div>
     <div class="links">
       <p>campryan@comcast.net</p>
@@ -19,14 +19,13 @@
 
 <style scoped>
   .footer {
-    height: 10%;
+    height: 8%;
     position: fixed;
     bottom: 0;
     width: 100%;
     border-radius: 20% 20% 0 0;
     background-color: gray;
     color: white;
-    /* padding-top: 5px; */
   }
 
   .labels {
@@ -52,6 +51,5 @@
     width: 25px;
     height: auto;
   }
-
 
 </style>
